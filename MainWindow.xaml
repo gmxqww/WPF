@@ -1,0 +1,46 @@
+﻿<Window x:Class="Pushing2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Pushing Game" Height="550" Width="500">
+        <Window.InputBindings>
+            <KeyBinding Command="{Binding UpCommand}" Key="Up"/>
+            <KeyBinding Command="{Binding DownCommand}" Key="Down"/>
+            <KeyBinding Command="{Binding RightCommand}" Key="Right"/>
+            <KeyBinding Command="{Binding LeftCommand}" Key="Left"/>
+    </Window.InputBindings>
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="File">
+                    <MenuItem Header="Save" Command="{Binding SaveGameCommand}"/>
+                    <MenuItem Header="Load" Command="{Binding LoadGameCommand}"/> 
+                </MenuItem>
+                <MenuItem Header="New Game">
+                    <MenuItem Header="3x3" Command="{Binding StartNewGameCommand}" CommandParameter="3"/>
+                    <MenuItem Header="4x4" Command="{Binding StartNewGameCommand}" CommandParameter="4"/>
+                    <MenuItem Header="6x6" Command="{Binding StartNewGameCommand}" CommandParameter="6"/>
+                </MenuItem>
+            </Menu>
+            <ItemsControl ItemsSource="{Binding Fields}">
+                <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="{Binding Size, UpdateSourceTrigger=PropertyChanged}" 
+                                 Columns="{Binding Size, UpdateSourceTrigger=PropertyChanged}"/>
+                </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                        <Button Background="{Binding Color, UpdateSourceTrigger=PropertyChanged}" 
+                                Command="{Binding SelectCommand}">
+                        
+                        </Button>
+                    </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </DockPanel>
+    </Grid>
+</Window>

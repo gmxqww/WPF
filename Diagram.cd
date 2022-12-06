@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pushing2.Eventargs.GameFinishedEvenetArgs">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAA=</HashCode>
+      <FileName>Eventargs\GameFinishedEvenetArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.Eventargs.GameStartedEventArgs">
+    <Position X="16.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Eventargs\GameStartedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.Model.PushingModel">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAABwggAAAMAAAAFAAAAAAAAIYQgAACEIEUk=</HashCode>
+      <FileName>Model\PushingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.Persistance.DataAccess" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAgIQgAAAAAAAE=</HashCode>
+      <FileName>Persistance\DataAccess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Pushing2.Persistance.PushingDataException">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistance\PushingDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.Persistance.PushingTable">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIQgAAAAAAAA=</HashCode>
+      <FileName>Persistance\PushingTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.ViewModel.DelegateCommand" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Pushing2.ViewModel.FieldViewModel">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQBAIQAAAAAAABAAAAAAAAAAAgAAAgAAAAAA=</HashCode>
+      <FileName>ViewModel\FieldViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.ViewModel.PushingViewModel">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAGEAwgBAgAgAAoAgAMAAAAAEBAAoAAAIAgAE=</HashCode>
+      <FileName>ViewModel\PushingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.ViewModel.ViewModelBase">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pushing2.App">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIQAAAQAgABAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pushing2.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Pushing2.Persistance.IDataAccess">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Persistance\IDataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Pushing2.Model.FieldState">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\States.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
